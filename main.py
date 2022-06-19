@@ -29,7 +29,7 @@ async def help(message: types.Message):
 # Хэндлер на команду /version
 @dp.message_handler(commands="version")
 async def version(message: types.Message):
-    await bot.send_message(message.from_user.id, "1.1")
+    await bot.send_message(message.from_user.id, "1.0")
 
 # Хэндлер на команду /Доступные наименования товаров
 @dp.message_handler(commands="Items")
